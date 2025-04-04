@@ -1,0 +1,32 @@
+# Design
+design_name: core
+verilog_files:
+  - src/core.v
+  - src/rom.v
+
+# Clock
+clock_period: 20
+clock_port: CLK
+
+# Synthesis
+synthesis_strategy: AREA
+
+# Floorplan
+core_utilization: 50
+aspect_ratio: 1
+core_margin: 2
+
+# Placement
+global_placement_density: 0.6
+
+# Routing
+routing_strategy: 2
+
+# PDN
+pdn_strategy: 1
+
+# Diode insertion
+diode_insertion_strategy: 3
+
+# Fill insertion
+fill_insertion: 1
