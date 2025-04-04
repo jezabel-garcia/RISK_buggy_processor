@@ -2,7 +2,7 @@
 
 This is an enhanced version of the 16-bit RISC processor originally designed years before DarkRISCV. This version includes a gshare branch predictor to improve performance on branch-heavy code. While still maintaining the simplicity and educational value of the original design, this version demonstrates how modern branch prediction techniques can be integrated into a simple processor core.
 Implemeted branch prediction and history implemented but waveform looks like not working.
-![branch prediction](RISK_buggy_processor/processor_withbranch_prediction_wrong_behavour/doc/waveforms.png)
+![branch prediction](doc/waveforms.png)
 
 # Features
 
