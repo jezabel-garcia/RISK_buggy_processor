@@ -1,4 +1,4 @@
-# u[Dark]RISC with Branch Prediction -- Enhanced micro-DarkRISC
+# u[Dark]RISC (modified) with Branch Prediction -- Enhanced micro-DarkRISC
 
 This is an enhanced version of the 16-bit RISC processor originally designed years before DarkRISCV. This version includes a gshare branch predictor to improve performance on branch-heavy code. While still maintaining the simplicity and educational value of the original design, this version demonstrates how modern branch prediction techniques can be integrated into a simple processor core.
 
@@ -26,7 +26,7 @@ Designed as a evaluation processor, it was never designed to be used on real pro
 
 This enhanced version with branch prediction demonstrates how modern processor features can be added to the simple core while maintaining its educational value.
 
-# Branch Prediction
+# Branch Prediction (problem153 of VerilogEval)
 
 The processor now includes a gshare branch predictor, which significantly improves performance on branch-heavy code. The branch predictor features:
 
